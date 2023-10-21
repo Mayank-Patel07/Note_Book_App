@@ -3,9 +3,11 @@ This is a MERN application, utilizing the latest technology stack. The app emplo
 # Installation
 # Backend
 https://nodejs.dev/en/learn/how-to-install-nodejs/
+Express Js
 
 # Front-end
 https://vitejs.dev/guide/
+React Js + Vite 
 
 # Note
-Use Your Database and localhost and JWT Signature.
+Use for Database and you localhost and JWT Signature.
