@@ -8,4 +8,4 @@ https://nodejs.dev/en/learn/how-to-install-nodejs/
 https://vitejs.dev/guide/
 
 # Note
-Use for Database and you localhost and JWT Signature.
+Use Your Database and localhost and JWT Signature.
