@@ -10,4 +10,4 @@ https://vitejs.dev/guide/
 React Js + Vite 
 
 # Note
-Use Your Database and you localhost and JWT Signature.
+Use Your Database and Your localhost and JWT Signature.
