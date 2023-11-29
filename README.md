@@ -6,8 +6,19 @@ https://nodejs.dev/en/learn/how-to-install-nodejs/
 Express Js + MongoDB 
 
 # Front-end
-https://vitejs.dev/guide/
+https://vitejs.dev/guide/ (Full Guide)
 React Js + Vite 
+
+# Installation 
+Step 1 npm create vite@latest 
+
+Step 2 cd my-project
+
+( Only node modules and default installation for both of them have same commands. )
+
+npm install
+
+npm run dev
 
 # Note
 Use Your Database and Your localhost and JWT Signature.
