@@ -65,3 +65,11 @@ Clean and mobile-friendly design
 Separate login and signup pages
 
 Optimized for both desktop and mobile use
+
+📬 Contact
+
+For contributions, issues, or collaboration opportunities:
+
+🔗 Visit my Portfolio
+
+🐛 Or open an issue on this GitHub repository
