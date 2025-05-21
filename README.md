@@ -1,111 +1,81 @@
-📒 Note Book App
-Live Portfolio Link
+📒 Notebook App (MERN Stack)
+A secure and modern note-taking app built using the MERN stack (MongoDB, Express.js, React.js, Node.js). This project features JWT-based user authentication, secure note storage, and a responsive frontend built with Vite and React.
 
-🛠 Overview
-The Note Book App is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application built using modern technologies. It enables users to register and manage personal notes securely with JWT-based authentication.
+📝 Project Description
+Notebook App allows users to:
 
-Each user has their own login and sign-up credentials. Notes are securely stored and associated with the user in a MongoDB database, ensuring privacy and separation of data.
+Register and log in securely using JWT authentication
 
-✨ Features
-🔐 User Authentication (JWT-based)
+Create, update, and delete personal notes
 
-📝 Create, Read, Update, and Delete Notes
+Access only their own notes using user-specific MongoDB records
 
-💾 Notes stored in MongoDB with user-specific access
+Navigate through a clean, responsive React-based UI
 
-🚀 Modern stack: React.js (with Vite) for frontend, Express.js and Node.js for backend
+Utilize a fast and efficient backend powered by Node.js and Express
 
-⚡ Fast performance and responsive design
+🛡️ Note: You must provide your own MongoDB URI and JWT Secret in the environment configuration to run this project locally.
 
-📦 Tech Stack
-Frontend: React.js + Vite
+🚀 Technologies Used
+🧩 Stack
+MongoDB – NoSQL database for storing user data and notes
 
-Backend: Node.js + Express.js
+Express.js – RESTful API backend
 
-Database: MongoDB
+React.js + Vite – Lightning-fast frontend development
 
-Authentication: JWT (JSON Web Token)
+Node.js – Backend runtime environment
 
-🔧 Installation Guide
-⚙️ Backend Setup
-Ensure you have Node.js installed
+📚 Libraries & Tools
+Axios – HTTP client for API calls
 
-Clone the repository and navigate to the backend folder:
+Mongoose – ODM for MongoDB
 
+jsonwebtoken (JWT) – For authentication
+
+bcryptjs – For password hashing
+
+dotenv – For managing environment variables
+
+🔧 Features
+🔐 Authentication
+Secure registration and login using JWT
+
+Encrypted passwords with bcrypt
+
+Role-based protected routes
+
+🗒️ Note Management
+Create, view, edit, and delete personal notes
+
+All notes are tied to the logged-in user's ID
+
+👤 User Experience
+Clean and mobile-friendly design
+
+Separate login and signup pages
+
+Optimized for both desktop and mobile use
+
+📁 Project Structure
 bash
 Copy
 Edit
-cd backend
-Install dependencies:
-
-bash
-Copy
-Edit
-npm install
-Add your configuration:
-
-Create a .env file
-
-Add your MongoDB URI, JWT secret, and any other necessary environment variables
-
-Start the server:
-
-bash
-Copy
-Edit
-npm start
-🌐 Frontend Setup
-Uses Vite for a fast and modern React development experience
-
-Navigate to the frontend folder:
-
-bash
-Copy
-Edit
-cd frontend
-Initialize the project (if not already created):
-
-bash
-Copy
-Edit
-npm create vite@latest
-Move into your project directory:
-
-bash
-Copy
-Edit
-cd my-project
-Install dependencies:
-
-bash
-Copy
-Edit
-npm install
-Start the development server:
-
-bash
-Copy
-Edit
-npm run dev
-🔑 Environment Variables
-Make sure to configure the following environment variables in the backend .env file:
-
-env
-Copy
-Edit
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-PORT=5000
-📝 Notes
-Replace placeholder values (MONGO_URI, JWT_SECRET) with your actual credentials.
-
-Ensure both frontend and backend are correctly pointing to each other’s endpoints (e.g., CORS, API URLs).
-
-📸 Screenshots
-Add screenshots of your app here to showcase its functionality.
-
-🌍 Live Demo
-Coming soon or [host it using platforms like Vercel, Netlify (Frontend) and Render, Cyclic (Backend)].
-
-📩 Contact
-Have feedback or suggestions? Reach out via the portfolio or open an issue on GitHub.
+Note-Book-App/
+├── backend/                        # Node.js + Express backend
+│   ├── models/                    # Mongoose models (e.g., User, Note)
+│   ├── routes/                    # API routes for notes and auth
+│   ├── server.js                  # Entry point of the backend
+│   └── .env                       # Environment variables
+│
+├── frontend/                      # React + Vite frontend
+│   ├── public/                    # Public assets
+│   ├── src/
+│   │   ├── components/            # Reusable components (Navbar, Forms)
+│   │   ├── pages/                 # Login, Signup, Home, etc.
+│   │   └── App.jsx                # Root component
+│   ├── vite.config.js             # Vite configuration
+│   └── index.html                 # HTML entry point
+│
+├── README.md                      # Project documentation
+└── package.json                   # Root-level package config (if applicable)
